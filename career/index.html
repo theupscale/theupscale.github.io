@@ -49,13 +49,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#" data-toggle="modal" data-target="#myModal">Culture</a>
+                        <a href="#" data-toggle="modal" data-target="#culture">Culture</a>
                     </li>
                     <li>
-                        <a href="#">Roles</a>
+                        <a href="#" data-toggle="modal" data-target="#roles">Roles</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#" data-toggle="modal" data-target="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -200,15 +200,15 @@
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="#about">Culture</a>
+                            <a href="#" data-toggle="modal" data-target="#culture">Culture</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#services">Roles</a>
+                            <a href="#" data-toggle="modal" data-target="#role">Roles</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#" data-toggle="modal" data-target="#contact">Contact</a>
                         </li>
                     </ul>
                     <p class="copyright text-muted small">Copyright &copy; Upscale Consultancy Services Private Limited  2014. All Rights Reserved</p>
@@ -219,7 +219,7 @@
 	
 	<!--Modal Window for Culture -->
 	<!-- Modal -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal fade" id="culture" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -237,6 +237,27 @@
 	  </div>
 	</div>
 	<!-- End of Culture-->
+	<!-- Modal window for Roles-->
+	<!-- Modal -->
+	<div class="modal fade" id="role" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Upscale Roles</h4>
+	      </div>
+	      <div class="modal-body">
+	        Currently there are no openings with us check back soon or mail us if you cannot wait and you think we should hire you 
+			by adding a subject line : "I am cool about [what you do] and why we should hire you" at careers-ind@theupscale.in
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!--End of roles -->
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
