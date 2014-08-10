@@ -251,13 +251,65 @@
 			by adding a subject line : "I am cool about [what you do] and why we should hire you" at <b>careers-ind@theupscale.in</b>
 			or you can send us your resume directly from the form below 
 		</hr>
-			<form action="http://getsimpleform.com/messages?form_api_token=2362b9af90bffc274f1a9f6cf6777006" method="post">
-			  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-			  <input type='hidden' name='redirect_to' value='http://theupscale.in/career/' />
-			  <!-- all your input fields here.... -->
-			  <input type='email' name='test' class="form-control" placeholder="Enter Email" />
-			  <input type='submit' class="btn btn-success" value='Test form' />
-			</form> 
+			<form class="form-horizontal">
+			<fieldset>
+
+			<!-- Form Name -->
+			<legend>Submit Yourself to Upscale</legend>
+
+			<!-- Text input-->
+			<div class="control-group">
+			  <label class="control-label" for="textinput">Your Name</label>
+			  <div class="controls">
+			    <input id="textinput" name="textinput" type="text" placeholder="Martian your name" class="input-xlarge" required="">
+			    <p class="help-block">Your name dude!</p>
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="control-group">
+			  <label class="control-label" for="textinput">What do you do now</label>
+			  <div class="controls">
+			    <input id="textinput" name="textinput" type="text" placeholder="Tell us about what's your current profile" class="input-xlarge">
+			    <p class="help-block">For example: if you are a student write "Student"</p>
+			  </div>
+			</div>
+
+			<!-- Select Basic -->
+			<div class="control-group">
+			  <label class="control-label" for="selectbasic">Are you applying for?</label>
+			  <div class="controls">
+			    <select id="selectbasic" name="selectbasic" class="input-xlarge">
+			      <option>Full time</option>
+			      <option>RnD</option>
+			      <option>Product Dev</option>
+			      <option>Software Engg</option>
+			      <option>Data Scientist</option>
+			      <option>UI/UX</option>
+			      <option>Intern</option>
+			    </select>
+			  </div>
+			</div>
+
+			<!-- File Button --> 
+			<div class="control-group">
+			  <label class="control-label" for="filebutton">Your Resume</label>
+			  <div class="controls">
+			    <input id="filebutton" name="filebutton" class="input-file" type="file">
+			  </div>
+			</div>
+
+			<!-- Button -->
+			<div class="control-group">
+			  <label class="control-label" for="singlebutton"></label>
+			  <div class="controls">
+			    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Submit</button>
+			  </div>
+			</div>
+
+			</fieldset>
+			</form>
+			
 	      </div>
 		  
 	      <div class="modal-footer">
