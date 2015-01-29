@@ -1,0 +1,11 @@
+/*color style #6f7c7d */
+
+.comments-area input[type="submit"], .wpcf7 input[type="submit"], .subscribeParent button[type="submit"], #preloader, .priceInner a, .niceHoverText span, .niceHoverView span, .galleryBlock .filters a.active, .galleryBlock .filters a.active:hover, .galleryBlock .filters a:hover, .carousel-control.right, .carousel-control.left, .mainNavColorBg, .formInner button, .overlayDiv, .boxSubscribe button, .postContent .btn-default:hover, .colorOverlay, .sloganOverlay, .footer, .btn-primary, .bulletLine, .appsBlock .btn-default:hover, .userCounterBlock .btn-default:hover, .footerLogo {
+	background-color: #6f7c7d;
+}
+.archiveBlock .btn-lg:hover, .comments-area input[type="submit"]:hover, .wpcf7 input[type="submit"]:hover, .subscribeParent button[type="submit"]:hover, .type, h3, .gridExpanding .btn-primary:hover, .thumbsGridSorting li.active, h4, .galleryBlock .btn-lg:hover, .galleryBlock .btn-group-lg > .btn:hover, .gridSotialIcons a:hover, .articleBlock .btn-default:hover, .userCounterBlock h4, .formInner button:hover, .thumbsGridSorting li:hover, .boxSubscribe button:hover, .postMeta a:hover, .postContent .btn-default, .postTitle span, .aboutBlock h4, .archiveList li a, h4, .appsBlock .btn-default, .jumbotron .btn:hover, .userCounterBlock .btn-primary:hover, .login_panel .nav > li > a:hover, .nav > li > a:focus {
+	color: #6f7c7d;
+}
+.comments-area input[type="submit"], .appsBlock .btn-default, .owl-dot span, .gridExpanding .btn-primary:hover, .userCounterBlock .btn-primary, .userCounterBlock .btn:hover,.archiveBlock .btn-lg:hover, .galleryBlock .btn-lg:hover, .galleryBlock .btn-group-lg > .btn:hover, .articleBlock .btn-default:hover, .owl-dot span, .btn-primary, .postContent .btn-default {
+	border-color: #6f7c7d;
+}
